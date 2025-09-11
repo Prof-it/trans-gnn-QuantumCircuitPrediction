@@ -1,7 +1,9 @@
 # Evaluating the Learnability of Transformer-Based Graph Neural Networks for the Output Distributions of Quantum Circuits
 
 This repository provides all code, datasets, trained models, and Jupyter notebooks required reproduce the experiments from a **Bachelor thesis** investigating whether TransformerConv-based Graph Neural Networks (GNNs) can learn to predict the **full output probability distributions** of quantum circuits. The thesis compares GNNs with a CNN baseline on variational and QAOA-style circuits (Class A and B) across 2–5 qubits, under both noiseless and hardware-calibrated noisy conditions, and includes extrapolation tests to 6-qubit circuits.
-
+---
+The basic Idea is illustrated in the architecture diagram (demonstrative for 2-qubits): 
+![GNN Architecture](figures/gnn/architecture.png)
 ---
 
 ## Setup Instructions
