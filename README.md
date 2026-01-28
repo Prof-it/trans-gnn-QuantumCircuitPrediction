@@ -1,8 +1,8 @@
-# Evaluating the Learnability of Transformer-Based Graph Neural Networks for the Output Distributions of Quantum Circuits
+# A Transformer-GNN Framework for Learning Full Output Distributions of Quantum Circuits
 
-This repository provides all code, datasets, trained models, and Jupyter notebooks for the paper "A Transformer-GNN Framework for Learning Full Output Distributions of Quantum Circuits", based on a bachelor theesis. The thesis compares GNNs with a CNN baseline on variational and QAOA-style circuits (Class A and B) across 2–5 qubits, under both noiseless and hardware-calibrated noisy conditions, and includes extrapolation tests to 6-qubit circuits.
+This repository provides all code, datasets, trained models, and Jupyter notebooks for the paper "A Transformer-GNN Framework for Learning Full Output Distributions of Quantum Circuits", based on a bachelor’s thesis. The thesis compares GNNs with a CNN baseline on variational and QAOA-style circuits (Class A and B) across 2–5 qubits, under both noiseless and hardware-calibrated noisy conditions, and includes extrapolation tests to 6-qubit circuits.
 ---
-The basic Idea is illustrated in the architecture diagram (demonstrative for 2-qubits): 
+The basic idea is illustrated in the architecture diagram (illustrative 2-qubit example): 
 ![GNN Architecture](figures/gnn/architecture.png)
 ---
 
@@ -180,3 +180,17 @@ notebooks/gnn_kl-fid_boxplot_visualization.ipynb
 Generates boxplots for all test-set evaluation metrics: KL divergence, classical fidelity, MSE, and Wasserstein distance.
 This notebook should be used instead of `3_gnn_modeling.ipynb` for KL and fidelity boxplots, as the visualizations in that notebook are incorrect due to a bug in the plotting direction. The numerical values printed are accurate, but the metric distribution plots for KL and fidelity should be taken from this notebook.
 
+
+## Citation
+
+If you use this repository, please cite the associated conference paper. See `CITATION.cff`, the GitHub Cite this repository box, or use the BibTeX below.
+
+```bibtex
+@INPROCEEDINGS{11331193,
+  author={Baba, Tourad and Lu, Tianxiang},
+  booktitle={2025 5th International Conference on AI-ML-Systems (AIMLSystems)},
+  title={A Transformer-GNN Framework for Learning Full Output Distributions of Quantum Circuits},
+  year={2025},
+  pages={1-6},
+  doi={10.1109/AIMLSystems67835.2025.11331193}
+}

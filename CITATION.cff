@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated conference paper."
+title: "Transformer-GNN framework for learning full output distributions of quantum circuits"
+type: software
+authors:
+  - family-names: "Baba"
+    given-names: "Tourad"
+  - family-names: "Lu"
+    given-names: "Tianxiang"
+preferred-citation:
+  type: conference-paper
+  title: "A Transformer-GNN Framework for Learning Full Output Distributions of Quantum Circuits"
+  authors:
+    - family-names: "Baba"
+      given-names: "Tourad"
+    - family-names: "Lu"
+      given-names: "Tianxiang"
+  conference:
+    name: "2025 5th International Conference on AI-ML-Systems (AIMLSystems)"
+  year: 2025
+  start: 1
+  end: 6
+  doi: "10.1109/AIMLSystems67835.2025.11331193"
