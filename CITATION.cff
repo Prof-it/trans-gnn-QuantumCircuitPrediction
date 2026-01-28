@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite the associated conference paper."
-title: "Transformer-GNN framework for learning full output distributions of quantum circuits"
+title: "A Transformer-GNN framework for learning full output distributions of quantum circuits"
 type: software
 authors:
   - family-names: "Baba"
